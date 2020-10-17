@@ -1,0 +1,38 @@
+main {
+  width: 1020px;
+  border: solid 1px #ddd;
+  margin: 0 auto;
+  overflow: hidden;
+}
+main article.hot {
+  border: solid 2px red;
+  overflow: hidden;
+}
+main article.hot section {
+  width: 500px;
+  height: 500px;
+  border: 1px solid blue;
+  background: #f3f3f3;
+}
+main article.hot section:nth-child(1) {
+  float: left;
+}
+main article.hot section:nth-child(2) {
+  float: right;
+}
+main article.goods {
+  border: solid 2px red;
+  margin-top: 20px;
+}
+main article.goods section.ad {
+  width: 200px;
+  height: 300px;
+  background: green;
+  float: left;
+}
+main article.goods section.list {
+  background: yellow;
+  width: 720px;
+  height: 300px;
+  float: left;
+}
